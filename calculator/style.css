@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar_wrapper h1{
+    font-size: 21px;
+}
+.navbar_wrapper a{
+    font-size: 16px;
+}
+.main_wrapper{
+    border: 2px solid black;
+    gap: 30px ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px auto;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 500px;
+    border-radius: 33px;
+    border:2px solid black;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+.inputs input{
+    border: none;
+}
+label{
+    font-size: 17px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.navbar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.twins{
+    display: flex;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+}
+.twin input{
+    height: 33px;
+    width: 100%;
+    border-radius: 20px;
+}
+.twin input {
+    width: 120px;
+}
+.amount input{
+    height: 33px;
+    width: 97%;
+}
+.amount{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.right{
+    width: 50%;
+    background-color: rgb(3, 6, 62);
+    color: white;
+    height: 100%;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 75px;
+}
+.end_wrapper button{
+    display: flex;
+    height: 46px;
+    width: 70%;
+    border-radius: 24px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 14px;
+    background-color: rgb(214, 224, 27);
+}
+.type label{
+    border: 2px solid black;
+}
+h2{
+    font-size: 20px;
+    /* color: rebeccapurple    ; */
+}
+.right p{
+    font-size: 15px;
+    text-align: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.right img{
+    width: 200px;
+    height: 200px;
+}
